@@ -1,0 +1,974 @@
+
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /*background-color: #F5F5F5;*/
+    background-color: #F4FAFF;
+    width: auto;
+    
+}
+
+
+/*Header*/
+.menu{
+    display:flex;
+    max-width: 100%;
+    height:300px;
+    background-image: radial-gradient(circle at 12.63% 67.43%, #a28be7 0, #7168ad 25%, #444372 50%, #1e213b 75%, #00000b 100%);
+    font-size: 16px;
+    justify-content: space-around;
+    gap: 10em;
+    box-shadow: 0 5px 5px 0 darkgrey;
+   
+    
+    
+}
+
+.nombre-header::before{
+    /*content:"\2728";*/
+    content: "\1F4BB";
+    font-size: 1.5em;
+    margin: 0 20px 0 0;
+    
+
+}
+
+.nombre-header{
+    display:flex;
+    font-weight: bold;
+    font-size: 2em;
+    color:#F5F5F5;
+    align-items:center;
+    
+   
+}
+
+.lista-menu{
+    display: flex;
+    gap: 20px;
+    font-size: 16px;
+    list-style-type: none;
+    color:#F5F5F5;
+    align-items:flex-end;
+    margin-bottom: 2em;
+  
+}
+
+.link-menu{
+    text-decoration: none;
+    color: #F5F5F5;
+    
+}
+
+/*Sección titulo, foto y presentacion*/
+.seccion-presentacion{
+    display:flex;
+    margin: 3em;
+    justify-content: space-evenly;
+    
+}
+
+.titulo-presentacion{
+    text-align: center;
+    margin-bottom: 2em;
+    color: #464646;
+    font-size: 1.7em;
+    
+}
+
+.presentacion{
+    padding: 2.5em 0 0 0;
+    
+}
+
+.parrafo-presentacion{
+    text-align: left;
+    line-height: 30px ;
+    color: #464646;
+    font-size: 18px;
+    margin: 0px 20px 0px 0px;
+   
+}
+
+.lista-redes{
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    margin-top: 5em;
+    
+    
+}
+
+.link-redes{
+    text-decoration: none;
+    color: #464646;
+    
+}
+
+.foto-perfil{
+    margin-top: 3em;
+
+}
+
+/*Sección sobre mí*/
+
+.descripcion{
+    background-color:#8789C0;
+    padding: 3em 0px;
+    margin: 5em 0;
+    width: 100%;
+    
+}
+
+.titulo-skills, .titulo-hobbies, .titulo-formacion, .titulo-proyectos{
+    text-align: left;
+    margin: 50px;
+    color:rgb(37, 54, 92);
+    font-size: 1.5em;
+    
+}
+
+.titulo-secundario{
+    text-align: left;
+    margin: 2em;
+    color:#F4FAFF;
+    font-size: 1.5em;
+    max-width: 90%;
+    
+}
+
+.descripcion-sobremi{
+    margin: 3em 50px 50px 50px;
+    line-height: 30px;
+    font-size: 18px;
+    color: #F4FAFF;
+   
+}
+
+/*Sección skills*/
+
+.logos-skills, .logos-hobbies, .logos-formacion{
+    display: flex;
+    margin: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.lista-logos, .lista-hobbies, .lista-formacion, .lista-proyectos{
+    list-style-type: none;
+    background-color: white;
+    padding: 50px;
+    align-items: center;
+    padding: 50px;
+    
+}
+
+.logo, .imagen-hobbie{
+    height: 5em;
+    width: 5em;
+    align-items: center;
+    margin: 0 0 10px 0;
+    
+}
+
+.nombre-logo, .nombre-hobbie, .nombre-institucion, .nombre-proyecto{
+    text-align: center;
+    color:rgb(37, 54, 92);
+   
+
+}
+
+/*Seccion formacion*/
+
+.logo-formacion{
+    height: 7em;
+    width: auto;
+    margin: 0 0 10px 0;
+    
+}
+
+.lista-formacion li, .lista-hobbies li, .lista-logos li{
+    text-align: center;
+    
+   
+}
+
+.nombre-institucion{
+    flex-wrap: wrap;
+    
+}
+
+.lista-formacion{
+    width: 30%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px 0 rgb(139, 170, 235);
+    margin: 0 0 0 10px;
+    
+}
+
+.lista-hobbies{
+    width: 25%;
+    box-sizing: border-box;
+    margin: 0 15px;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px 0 rgb(139, 170, 235);
+   
+}
+
+.lista-logos{
+    width: 25%;
+    box-sizing: border-box;
+    margin: 0 15px;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px 0 rgb(139, 170, 235);
+}
+
+/*Seccion proyectos*/
+
+.proyectos{
+     width: 100%;
+}
+
+
+.imagen-proyecto{
+    width: 20em;
+    height: auto;
+}
+
+.lista-proyectos{
+    width: 25%;
+    box-sizing:content-box;
+    margin-left: 5em;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px 0 rgb(139, 170, 235);
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+
+/*Seccion contacto*/
+
+.contacto{
+    width: 100%;
+    margin: 6em 0;
+    display: flex;
+    justify-content: space-around;
+    color: #464646;
+   
+    
+}
+
+.imagen-telefono{
+    height: 100%;
+    width: auto;
+}
+
+.imagen-contacto{
+    width: 50%;
+    margin: 0 0 0 3em;
+}
+
+.titulo-formulario{
+    margin: 0 5em 2em 0;
+    text-align: justify;
+    
+}
+
+.input-nombre-apellido, .input-email, .input-telefono, .input-asunto{
+    display: block;
+    width: 50%;
+    padding: 1em 3em;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px 0 darkgrey;
+}
+
+.input_mensaje{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px 0 darkgrey;
+    font-size: 15px;
+}
+
+form label{
+    display: block;
+    margin: 0.5em;
+}
+
+.boton-enviar{
+    width: 50%;
+    padding:15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background:#574AE2;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    margin: 1em 0 0 4.5em;
+    box-shadow: 0 2px 2px 0  grey;
+    
+}
+
+.boton-enviar:hover{
+    background: #20538d;
+    transform: scale(1.1);
+}
+
+/*Footer*/
+
+footer{
+    width: 100%;
+    padding: 2em 0 2em 0;
+    background-color: #454372;
+    text-align: center;
+    color:#F5F5F5;
+    height: 150px;
+    
+}
+
+.texto-footer{
+    margin-top: 2.5em;
+    
+}
+
+.hecho-con-amor{
+    margin-top: 1em;
+}
+
+.hecho-con-amor::after{
+
+    content: "\2764";
+    color: rgb(218, 32, 32);
+    font-size: 1.5em;
+    margin: 0 0 0 0.5em;
+}
+
+.texto-atribucion{
+    margin-top: 1.2em;
+    font-size: 0.9em;
+    
+}
+
+/*RESPONSIVE*/
+
+/* Estilos para móviles */
+@media (min-width: 320px) and (max-width: 480px) {
+    /*HEADER*/
+    .menu {
+        width: 100%;
+        height: 100px;
+        font-size: 14px;
+        padding: 0; 
+        margin: 0; 
+        box-sizing: border-box; 
+        background-image: none;
+        box-shadow: none;
+    }
+    .nombre-header{
+        font-size: 1.8em;
+        color: black;
+        margin: 2em 1em 2em 0;
+    }
+
+    .lista-menu{
+        display: none;
+    
+    }
+
+    /*Sección titulo, foto y presentacion*/
+
+    .seccion-presentacion {
+        flex-direction: column;
+        align-items: center;
+        margin: 1em 1em 1em 0;
+    }
+
+    .titulo-presentacion {
+        font-size: 1.1em;
+        line-height: 1.5em;
+        text-align: center;
+        margin: 0 0 1.5em 1em;
+    }
+
+    .presentacion{
+        padding: 0;
+        
+    }
+
+    .parrafo-presentacion{
+        text-align: justify;
+        line-height: 30px ;
+        font-size: 1em;
+        margin:0 0 0 20px;
+    }
+
+    .lista-redes{
+        display: flex;
+        list-style-type: none;
+        gap: 50px;
+        margin-top: 3em;
+        margin-left: 5em;
+        
+        
+    }
+    
+    
+    .foto-perfil{
+        margin: 3em 0 9.7em 1em;
+        height: 80px;
+        width: auto;
+        
+    }
+
+    /*Sección sobre mí*/
+
+.descripcion{
+    padding: 0;
+    margin-bottom: 4em;
+    width:auto;
+}
+
+.titulo-skills, .titulo-hobbies, .titulo-formacion, .titulo-proyectos{
+    text-align: left;
+    margin: 1em;
+    font-size: 1.3em;
+}
+
+.titulo-secundario{
+    padding-top: 20px;
+    font-size: 1.3em;
+    margin: 1em;
+}
+
+.descripcion-sobremi{
+
+    font-size: 0.9em;
+    padding-bottom: 2em;
+    margin: 1em;
+    text-align: justify;
+    
+}
+
+/*Sección skills*/
+
+.logos-skills, .logos-hobbies, .logos-formacion{
+    display: flex;
+    margin: 0 0 4em 0;
+    gap: 1.2em 0;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+.lista-logos, .lista-hobbies{
+    padding: 1.5em;
+    align-items: center;
+    width: 35%;
+    max-height: 150px;
+    min-height: 150px;
+    max-width: 100%;
+    box-sizing: content-box;
+}
+
+.logo, .imagen-hobbie{
+    height: auto;
+    width: 80%;
+  
+}
+
+.lista-formacion, .lista-proyectos{
+    width: 80%;
+    max-height:200px;
+    min-height: 200px;
+    align-items: justify;
+    justify-content: center;
+    
+}
+
+.logo-formacion {
+    margin: 0 0 1em 0;
+    width: auto;
+    height: 5em;
+}
+
+.nombre-logo, .nombre-hobbie{
+    width: 100%;
+    text-align: justify;
+    font-size: 0.9em;
+
+}
+
+.elementos-proyectos{
+    width: 80%;
+    
+}
+
+.lista-proyectos{
+    width: 80%;
+    margin-left: 2em;
+    box-sizing: content-box;
+  
+}
+
+.imagen-proyecto{
+    margin: 0 0 1em 0;
+    width: auto;
+    height: 8em;
+}
+
+.imagen-contacto{
+    display: none;
+}
+
+/*Seccion contacto*/
+
+.contacto{
+    width: 100%;
+    /*margin: 2em 2em 2em 0;*/
+}
+
+.formulario{
+    width: 80%;
+    margin: 0 1.5em 2em 0;
+
+}
+
+.titulo-formulario{
+    margin: 0 0 2em 0;
+    font-size: 1em;
+    text-align: justify;
+}
+
+.input-nombre-apellido, .input-email, .input-telefono, .input-asunto{
+    width: 100%;
+    padding: 1em 1em;
+
+}
+
+.input_mensaje{
+    height: 150px;
+    width: 100%;
+    max-width: 100%;
+}
+
+form label{
+    margin: 0.5em;
+    
+}
+
+.boton-enviar{
+    width: 80%;
+    padding:13px 0;
+    font-size: 1em;
+    margin: 1em 0 0 2.5em;
+    
+}
+
+/*Footer*/
+
+.texto-footer, .hecho-con-amor{
+    font-size: 0.8em;
+}
+
+.hecho-con-amor{
+    margin-top: 1em;
+}
+
+.hecho-con-amor::after{
+    font-size: 1.2em;
+}
+
+.texto-atribucion{
+    font-size: 0.7em;
+}
+
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+
+    /*Header*/
+
+    .menu{
+        height: 200px;
+        width: 100%;
+        box-sizing: border-box;
+        overflow: visible;
+        gap: 2.5em;
+    }
+
+    .nombre-header::before{
+        margin: 0 1em 0 1em;
+    
+    }
+    
+    .nombre-header{
+        font-size: 1.2em;
+        text-wrap: nowrap;
+    }
+
+    .nombre-header::before{
+        margin: 0 10px 0 10px;
+    
+    }
+    
+    
+    
+    .lista-menu{
+        display: flex;
+        gap:1em;
+        font-size: 0.8em;
+        align-items:flex-end;
+        margin-bottom: 2em;
+        text-wrap: nowrap;
+        width: 100%;
+        box-sizing: border-box;
+        overflow-x: auto;
+    }
+
+   
+
+    /*SECCION PRESENTACION*/
+
+    .seccion-presentacion {
+        flex-direction: column;
+        align-items: center;
+        margin: 3em 0;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .titulo-presentacion {
+        font-size: 1.1em;
+        line-height: 1.5em;
+        text-align: center;
+        margin: 0 0 1.5em;
+        width: 100%
+    }
+
+    .presentacion{
+        padding: 0;
+        width: 100%;
+    }
+
+    .parrafo-presentacion{
+        text-align: justify;
+        line-height: 1.5em ;
+        font-size: 0.9em;
+        margin: 0 1em
+    }
+
+    .lista-redes{
+        display: flex;
+        list-style-type: none;
+        gap: 20px;
+        margin-top: 3em;
+        justify-content: center;
+        width: 100%;
+        
+        
+    }
+    .descripcion{
+        padding: 0;
+        margin-bottom: 4em;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .foto-perfil{
+       display: none;
+
+    }
+    
+
+    .titulo-skills, .titulo-hobbies, .titulo-formacion, .titulo-proyectos{
+        text-align: left;
+        margin: 1em;
+        font-size: 1.3em;
+        width: 90%;
+    }
+
+    .titulo-secundario{
+        padding-top: 20px;
+        font-size: 1.3em;
+        margin: 1em;
+        width: 100%;
+    }
+
+    .descripcion-sobremi{
+
+        font-size: 0.9em;
+        padding-bottom: 2em;
+        margin: 1em 1em 1em 2em;
+        text-align: justify;
+        width: 90%;
+        box-sizing: border-box;
+        
+    }
+
+    .logos-skills, .logos-hobbies, .logos-formacion{
+        display: flex;
+        margin: 0;
+        gap: 1em 0;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 100%;
+
+    }
+
+    .lista-logos, .lista-hobbies{
+        padding: 1.5em;
+        align-items: center;
+        width: 100%;
+        max-height: 150px;
+        min-height: 150px;
+        max-width: 150px;
+    }
+
+    .logo, .imagen-hobbie {
+        width: 70%;
+    
+    }
+
+    .nombre-logo, .nombre-hobbie{
+        width: 100%;
+        text-align: justify;
+        font-size: 0.8em;
+    
+    }
+
+
+    .lista-formacion, .lista-proyectos{
+        width: 30%;
+        max-height:200px;
+        min-height: 200px;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+
+    .logo-formacion {
+        margin: 0 0 1em 0;
+        width: auto;
+        height: 5em;
+        box-sizing: border-box;
+        max-width: 100%;
+    }
+
+    .elementos-proyectos{
+        width: 50%;
+        
+    }
+
+    .proyectos{
+        max-width: auto;
+    }
+
+    .lista-proyectos{
+        width: 100%;
+        margin-left: 2em;
+    
+    }
+
+    .imagen-proyecto{
+        margin: 0 0 1em 0;
+        width: auto;
+        height: 8em;
+    }
+
+    .imagen-contacto{
+        display: none;
+    }
+
+            
+    /*Seccion contacto*/
+
+    .contacto{
+        width:90%;
+        margin: 3em 0 3em 2em;
+        display: inline-block;
+        box-sizing: border-box;
+            
+    }
+
+    .formulario{
+        width: 50%;
+        margin: 0;
+    
+    }
+
+    .imagen-contacto{
+        display: none;
+    }
+
+    .titulo-formulario{
+        margin:0;
+        text-align: justify;
+        width: 100%;
+    }
+
+    .input-nombre-apellido, .input-email, .input-telefono, .input-asunto{
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+
+    }
+
+    .input_mensaje{
+        height: 200px;
+        width: 400px;
+        box-sizing: border-box;
+    }
+
+    .form label{
+        display: block;
+        margin: 0.5em;
+        }
+
+    .boton-enviar{
+        width: 100%;
+        margin: 1em 0 0; 
+        padding: 13px 0;
+        font-size: 1em;  
+        }
+
+    
+    /*Footer*/
+
+    footer{
+        padding: 1em 0;
+        margin: 0;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .texto-footer, .hecho-con-amor{
+        font-size: 0.8em;
+    }
+        
+    .hecho-con-amor{
+         margin-top: 1em;
+    }
+        
+    .hecho-con-amor::after{
+        font-size: 1.2em;
+    }
+        
+    .texto-atribucion{
+        font-size: 0.7em;
+    }
+        
+
+    }
+
+@media (min-width: 769px) and (max-width: 1024px){
+
+    .menu{
+        height: 300px;
+        width: 100%;
+        box-sizing: border-box;
+        overflow: visible;
+        gap: 2.5em;
+    }
+    
+    .nombre-header::before{
+        margin: 0 0.5em 0 0.5em;
+        
+    }
+        
+    .nombre-header{
+        font-size: 1.9em;
+        text-wrap: nowrap;
+    }
+        
+        
+    .lista-menu{
+        display: flex;
+        gap:1em;
+        font-size: 0.9em;
+        align-items:flex-end;
+        margin-bottom: 2em;
+        text-wrap: nowrap;
+        width: 100%;
+        box-sizing: border-box;
+        overflow-x: auto;
+    }
+    /*Formacion*/
+
+    .logo-formacion {
+        margin: 0 0 1em 0;
+        width: auto;
+        height: 5em;
+        box-sizing: border-box;
+        max-width: 100%;
+    }
+                
+    /*Seccion contacto*/
+
+    .contacto{
+        width:90%;
+        margin: 3em 0 3em 2em;
+        box-sizing: border-box;
+            
+    }
+
+    .formulario{
+        width: 50%;
+        margin: 0 0 0 2em;
+    
+    }
+
+    form{
+        margin-left: 1em;
+    }
+
+    .imagen-contacto{
+        margin: 0;
+    }
+    .imagen-telefono{
+        width: 100%;
+        height: auto;
+    }
+
+    .titulo-formulario{
+        margin:0 0 1em 0;
+        text-align: justify;
+        width: 100%;
+        font-size: 1.1em;
+        line-height: 1.4em;
+    }
+
+    .input-nombre-apellido, .input-email, .input-telefono, .input-asunto{
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+
+    }
+
+    .input_mensaje{
+        height: 100px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .form label{
+        display: block;
+        margin: 0.5em;
+        }
+
+    .boton-enviar{
+        width: 100%;
+        margin: 1em 0 0 0; 
+        padding: 13px 0;
+        font-size: 1em;  
+        }
+
+    
+
+    }
